@@ -1,0 +1,90 @@
+.body{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+    align-self: center;
+    text-align: center;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boton{
+    width: 30%;
+    align-self: center;
+    padding: 0.5%;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cuadrado{
+    width: 8%;
+    height: 8%;
+    padding: 2%;
+    border: 3px solid black;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    /* agranda el número */
+    font-weight: bold;
+}
+
+#pares{
+    background-color: rgb(71, 136, 197);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#pares:hover{
+     background-color: rgb(83, 159, 230);
+     transform: scale(1.1);
+
+}
+
+#impares{
+    background-color: rgb(197, 48, 48);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#impares:hover{
+     background-color: rgb(231, 57, 57);
+     transform: scale(1.1);
+
+}
+
+#primos{
+    background-color: rgb(94, 202, 61);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#primos:hover{
+    background-color: rgb(105, 230, 67);
+    transform: scale(1.1);
+}
+
+.iluminar_pares
+{
+    background-color: rgba(64, 139, 226, 0.648);
+}
+.iluminar_impares
+{
+    background-color: rgba(223, 55, 55, 0.648);
+}
+.iluminar_primos
+{
+    background-color: rgba(41, 220, 95, 0.894);
+}
