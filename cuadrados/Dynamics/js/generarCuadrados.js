@@ -6,7 +6,7 @@ let detecta;
 let Cpar="par";
 let Cimpar="impar";
  
-for(let i=1; i<=100; i++) //establece el dígito de las decenas
+for(let i=1; i<=10; i++) //establece el dígito de las decenas
 {
     html += `<div class="fila">`;
     for(let j=1; j<=10; j++)
